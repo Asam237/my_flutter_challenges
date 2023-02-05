@@ -56,7 +56,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       ),
                       Container(
                           width: 350,
-                          child: const CText(
+                          child: CText(
+                            center: true,
                             text:
                                 "Expense Tracker is a simple and efficient personnal finance management app that allows to track your daily expenses and income.",
                           )),
