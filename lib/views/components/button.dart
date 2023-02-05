@@ -19,7 +19,7 @@ class CButton extends StatelessWidget {
         width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
             color: const Color(0xffff5348),
-            borderRadius: BorderRadius.circular(20.0)),
+            borderRadius: BorderRadius.circular(80.0)),
         child: Row(
           children: [
             Container(
