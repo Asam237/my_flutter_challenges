@@ -23,13 +23,13 @@ class CText extends StatelessWidget {
     if (typeOfText == "title") {
       return Text(
         text,
-        style: const TextStyle(fontSize: 23.0),
+        style: const TextStyle(fontSize: 23.0, color: Colors.black),
       );
     }
     if (typeOfText == "subtitle") {
       return Text(
         text,
-        style: const TextStyle(fontSize: 18.0),
+        style: const TextStyle(fontSize: 18.0, color: Colors.black),
       );
     }
 
@@ -37,7 +37,8 @@ class CText extends StatelessWidget {
       return Text(
         text,
         textAlign: TextAlign.center,
-        style: const TextStyle(fontSize: 13.0, height: 1.4),
+        style:
+            const TextStyle(fontSize: 13.0, height: 1.4, color: Colors.black),
       );
     }
     return Text(
